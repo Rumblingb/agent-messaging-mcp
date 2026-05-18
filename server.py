@@ -13,7 +13,7 @@ import threading
 from pathlib import Path
 from typing import Optional
 
-from mcp.server import Server
+from mcp.server.lowlevel import Server
 from mcp.server.stdio import stdio_server
 from mcp.types import Tool, TextContent
 from pydantic import BaseModel, Field
